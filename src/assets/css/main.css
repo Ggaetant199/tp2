@@ -1,0 +1,161 @@
+html {
+  --color1: #000000;
+  --color2: #dee0e0;
+  --color3: #04567c;
+  --size1: 20px;
+  --size2: 18px;
+  --size3: 16px;
+  --size4: 14px;
+  --size5: 12px;
+  --size6: 10px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src:  url("./Roboto/Roboto-Regular.ttf");
+} 
+
+@font-face {
+  font-family: "Roboto-bold";
+  src:  url("./Roboto/Roboto-Bold.ttf");
+} 
+
+@font-face {
+  font-family: "Roboto-italic";
+  src:  url("./Roboto/Roboto-Italic.ttf");
+} 
+
+@font-face {
+  font-family: "Roboto-italic-bold";
+  src:  url("./Roboto/Roboto-BoldItalic.ttf");
+} 
+
+
+@font-face {
+  font-family: "Roboto-light";
+  src:  url("./Roboto/Roboto-Light.ttf");
+} 
+
+
+@font-face {
+  font-family: "Roboto-light-italic";
+  src:  url("./Roboto/Roboto-LightItalic.ttf");
+} 
+
+
+body {
+  background-color: var(--color2);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.row {
+  padding: 0;margin: 0;
+}
+
+.ft-1{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.ft-2 {
+  font-family: "Roboto-bold", Arial, Helvetica, sans-serif;
+}
+
+.ft-3 {
+  font-family: "Roboto-italic", Arial, Helvetica, sans-serif;
+}
+
+.ft-4 {
+  font-family: "Roboto-italic-bold", Arial, Helvetica, sans-serif;
+}
+
+.ft-5 {
+  font-family: "Roboto-light", Arial, Helvetica, sans-serif;
+}
+
+.ft-6 {
+  font-family: "Roboto-light-italic", Arial, Helvetica, sans-serif;
+}
+
+.h100{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about{
+  background:  linear-gradient(rgba(250, 250, 250, 0.877),  rgba(60, 255, 0, 0.205)),
+                url("../startup.gif") center no-repeat;
+
+}
+
+.services{
+  background:  linear-gradient(rgba(228, 228, 228, 0.829),  rgba(255, 0, 0, 0.925)),
+                url("../mp4.gif") center no-repeat;
+}
+
+.produits{
+  background:  linear-gradient(rgba(226, 226, 226, 0.76),  rgb(252, 235, 2)),
+                url("../stats.gif") no-repeat;
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+  /* background-size: contain; */
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+
+}
+
+.equipe{
+  background:  linear-gradient(rgba(226, 226, 226, 0.76),  rgb(89, 2, 252)),
+                url("../team.gif") no-repeat;
+}
+
+.career{
+  background:  linear-gradient(rgba(226, 226, 226, 0.76),  rgb(2, 202, 252)),
+                url("../build.gif") no-repeat;
+}
+
+
+.about,.services,.equipe,.career{
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+  /* background-size: contain; */
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+footer ul li {
+  padding: 3px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #a5a2a2;
+}

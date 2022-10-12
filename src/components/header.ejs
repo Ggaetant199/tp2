@@ -1,0 +1,60 @@
+<html lang="<%=lang%>">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="byt3lab est une fintech/startup camerounaise ambitieuxe, innovante, dynamique qui a pour but de transformé le paysage éconmique du pays et mombe à travers nos divers services et produits numériques et physiques">
+  <meta name="keywords" content="logiciel soft développement web mobile réseaux formations">
+  <title><%= title %></title>
+  <link rel="shortcut icon" href="/assets/logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="">
+  <div id="top"></div>
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="/<%=lang%>">
+          <img src="/assets/logo.jpg" width="30" height="30" alt="" srcset="" style="border-radius: 20%" class="me-1">
+          BYT3LAB
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>#about"><%=t.about%></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>#services"><%=t.services%></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>#produits"><%=t.products%></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>#equipe"><%=t.team%></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>#career"><%=t.career%></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/<%=lang%>/contact"><%=t.contact%></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle bi bi-translate" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <%=t.lang%>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/<%=lang%>">Français</a></li>
+                <li><a class="dropdown-item" href="/<%="en"%>">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
